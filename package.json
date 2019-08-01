@@ -1,0 +1,26 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "\"ttt test\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "hooks": {
+    "pre-commit": "swiftlint",
+    "pre-push": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SenthilKumartd/gittest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SenthilKumartd/gittest/issues"
+  },
+  "homepage": "https://github.com/SenthilKumartd/gittest#readme",
+  "dependencies": {
+    "husky": "^3.0.2"
+  }
+}
