@@ -4,9 +4,11 @@
   "description": "\"ttt test\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pre-commit": "swiftlint",
+    "pre-push": "swiftlint"
   },
-  "hooks": {
+  "husky": {
     "pre-commit": "swiftlint",
     "pre-push": "npm test"
   },
