@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pre-commit": "swiftlint",
-    "pre-push": "swiftlint"
+    "pre-commit": "npm test",
+    "pre-push": "npm test"
   },
   "husky": {
-    "pre-commit": "swiftlint",
+    "pre-commit": "npm test",
+    "pre-push": "npm test"
+  },
+  "hooks": {
+    "pre-commit": "npm test",
     "pre-push": "npm test"
   },
   "repository": {
