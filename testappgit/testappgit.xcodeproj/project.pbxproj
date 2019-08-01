@@ -12,8 +12,8 @@
 		D7C357C822F2F2F60025888F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C357C622F2F2F60025888F /* Main.storyboard */; };
 		D7C357CA22F2F2FF0025888F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C357C922F2F2FF0025888F /* Assets.xcassets */; };
 		D7C357CD22F2F2FF0025888F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C357CB22F2F2FF0025888F /* LaunchScreen.storyboard */; };
-		D7C357D822F2F2FF0025888F /* testappgitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C357D722F2F2FF0025888F /* testappgitTests.swift */; };
-		D7C357E322F2F2FF0025888F /* testappgitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C357E222F2F2FF0025888F /* testappgitUITests.swift */; };
+		D7C357D822F2F2FF0025888F /* TestappgitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C357D722F2F2FF0025888F /* TestappgitTests.swift */; };
+		D7C357E322F2F2FF0025888F /* TestappgitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C357E222F2F2FF0025888F /* TestappgitUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,10 @@
 		D7C357CC22F2F2FF0025888F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7C357CE22F2F2FF0025888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7C357D322F2F2FF0025888F /* testappgitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testappgitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7C357D722F2F2FF0025888F /* testappgitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testappgitTests.swift; sourceTree = "<group>"; };
+		D7C357D722F2F2FF0025888F /* TestappgitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestappgitTests.swift; sourceTree = "<group>"; };
 		D7C357D922F2F2FF0025888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7C357DE22F2F2FF0025888F /* testappgitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testappgitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7C357E222F2F2FF0025888F /* testappgitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testappgitUITests.swift; sourceTree = "<group>"; };
+		D7C357E222F2F2FF0025888F /* TestappgitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestappgitUITests.swift; sourceTree = "<group>"; };
 		D7C357E422F2F2FF0025888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +110,7 @@
 		D7C357D622F2F2FF0025888F /* testappgitTests */ = {
 			isa = PBXGroup;
 			children = (
-				D7C357D722F2F2FF0025888F /* testappgitTests.swift */,
+				D7C357D722F2F2FF0025888F /* TestappgitTests.swift */,
 				D7C357D922F2F2FF0025888F /* Info.plist */,
 			);
 			path = testappgitTests;
@@ -119,7 +119,7 @@
 		D7C357E122F2F2FF0025888F /* testappgitUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D7C357E222F2F2FF0025888F /* testappgitUITests.swift */,
+				D7C357E222F2F2FF0025888F /* TestappgitUITests.swift */,
 				D7C357E422F2F2FF0025888F /* Info.plist */,
 			);
 			path = testappgitUITests;
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7C357D822F2F2FF0025888F /* testappgitTests.swift in Sources */,
+				D7C357D822F2F2FF0025888F /* TestappgitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7C357E322F2F2FF0025888F /* testappgitUITests.swift in Sources */,
+				D7C357E322F2F2FF0025888F /* TestappgitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
